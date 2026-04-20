@@ -48,7 +48,7 @@
 	"serverOptions/unloadPreviousJITModelOnLoad/title": "Behåll endast senaste JIT-inlästa modell",
 	"serverOptions/unloadPreviousJITModelOnLoad/hint": "Säkerställ att högst 1 modell är inläst via JIT åt gången (avlastar föregående modell)",
 	"serverOptions/allowMcp/title": "Tillåt MCP",
-	"serverOptions/allowMcp/hint": "När aktiverad tillåts serverförfrågningar att ansluta till MCP-servrar. Aktivera med försiktighet, eftersom vissa MCP-servrar kan vara osäkra.",
+	"serverOptions/allowMcp/hint": "När aktiverad tillåts serverförfrågningar att ansluta till fjärr-MCP:er som inte finns listade i mcp.json. Dessa anslutningar är tillfälliga. Aktivera med försiktighet, eftersom vissa MCP-servrar kan vara osäkra. För närvarande stöds endast fjärr-MCP:er.",
 
 	"serverLogs/scrollToBottom": "Hoppa till botten",
 	"serverLogs/clearLogs": "Rensa loggar ({{shortcut}})",
